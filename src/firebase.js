@@ -1,4 +1,7 @@
-import firebase from "firebase"
+import firebase from "firebase/compat/app";
+import "firebase/compat/auth";
+import "firebase/compat/firestore";
+import "firebase/compat/storage";
 
 
 const firebaseConfig = {
@@ -16,6 +19,7 @@ const firebaseConfig = {
   const auth = firebase.auth();
   const provider = new firebase.auth.GoogleAuthProvider();
 
-export { db, auth , provider};
+export { auth , provider };
+export default db;
 
 
