@@ -1,10 +1,11 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Chat from './components/Chat';
 import Login from './components/Login';
+import { useStateValue } from './components/StateProvider';
 
 function Home() {
   return <h1>Home Screen</h1>;
@@ -12,8 +13,7 @@ function Home() {
 
 
 function App() {
-  const [user, setUser] = useState(null);
-  // const [user, setUser] = useState("SONNY");
+  const [{user}, dispatch] = useStateValue();
 
 
   return (
