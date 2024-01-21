@@ -38,7 +38,7 @@ function Sidebar() {
             <h2>Wise Programmer</h2>
             <h3>
                 <FiberManualRecordIcon />
-                Awaze Shaikh
+                Awaze 7
             </h3>
         </div>
         <CreateIcon />
@@ -56,8 +56,6 @@ function Sidebar() {
       <hr />
       <SidebarOption Icon={AddIcon} addChannelOption title="Add Channel" />
 
-      {/* Connect to db and list all the channels */}
-      {/* <SidebarOption ... /> */}
       {channels.map(channel =>(
         <SidebarOption title={channel.name} id={channel.id} />
       ))
