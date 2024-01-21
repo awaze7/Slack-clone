@@ -25,8 +25,8 @@ function Chat() {
         ))  
     }, [roomId]);
 
-    console.log(roomDetails);
-    console.log("MSGS: ",roomMessages);
+    // console.log(roomDetails);
+    // console.log("MSGS: ",roomMessages);
     return (
         <div className="chat">
             <div className="chat_header">
