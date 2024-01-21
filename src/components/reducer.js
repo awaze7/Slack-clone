@@ -6,7 +6,7 @@ export const initialState = {
     SET_USER: "SET_USER",
   };
   
-  const reducer = (state, action) => {
+  const Reducer = (state, action) => {
     console.log(action);
   
     switch (action.type) {
@@ -20,4 +20,4 @@ export const initialState = {
     }
   };
   
-  export default reducer;
+  export default Reducer;

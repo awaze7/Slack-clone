@@ -6,15 +6,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Chat from './components/Chat';
 import Login from './components/Login';
 import { useStateValue } from './components/StateProvider';
-
-function Home() {
-  return <h1>Home Screen</h1>;
-}
+import Home from './components/Home';
 
 
 function App() {
-  const [{user}, dispatch] = useStateValue();
-
+  const [{user}] = useStateValue();
 
   return (
     <div className="App">
