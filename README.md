@@ -1,8 +1,10 @@
 # Slack-Clone
 
 Slack Clone is a dynamic messaging application developed with React, MaterialUI, and integrated Google authentication. 
-The application utilizes a Firestore database to facilitate real-time chat interactions across diverse channels.
+The application utilizes Firestore database to facilitate real-time chat interactions across diverse channels.
+
 The app is deployed and accessible at https://slack-clone-212f5.web.app.
+
 ## Features
 
 - **Authentication:** Securely authenticate users with Google OAuth using React-Firebase.
@@ -12,9 +14,10 @@ The app is deployed and accessible at https://slack-clone-212f5.web.app.
 
 ## Built With
 
-- [React](https://reactjs.org/)
-- [Firebase](https://firebase.google.com/)
+- [React]
+- [Firebase]
 - CSS
+- MaterialUI
 
 ## Getting Started
 
@@ -31,8 +34,8 @@ Make sure you have the following installed:
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/awaze7/Slack-clone.git
+```bash
+git clone https://github.com/awaze7/Slack-clone.git
 Navigate to the project directory:
 
  ```bash
